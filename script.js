@@ -8,6 +8,11 @@ const perPersonTotalDiv = document.getElementById("perPersonTotal")
 
 // this functions run over all ids
 const calculateBill = () => {
+  // bill
+  const bill = Number(billInput.value)
+
+  // tip should be divided by 100 to make it perchentage
+  const tipPerchantage = Number(tipInput.value) / 100;
 
 
 }
