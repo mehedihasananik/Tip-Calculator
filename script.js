@@ -6,6 +6,8 @@ const numberOfPeopleDiv = document.getElementById("numberOfPeople")
 const perPersonTotalDiv = document.getElementById("perPersonTotal")
 
 
+let numberOfPeople = Number(numberOfPeopleDiv.innerText)
+
 // this functions run over all ids
 const calculateBill = () => {
   // bill
@@ -17,6 +19,9 @@ const calculateBill = () => {
   const totalTip = bill * tipPerchantage;
 
   const totalBill = bill + totalTip;
+
+  const perPersonTotal = totalBill / numberOfPeople;
+  console.log(perPersonTotal)
 
 
 }
