@@ -72,5 +72,6 @@ const decreasePeople = () => {
 
 
   // calculate the bill based on the new number of people
+  // calculate the bill based on the new number of people
 
 }
