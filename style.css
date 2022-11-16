@@ -41,7 +41,7 @@ body {
 #billTotalInput,
 #tipInput {
   font-size: 1.2rem;
-  background: #353959;
+  background: #353959 !important;
   border: none;
   outline: none;
   padding: none;
