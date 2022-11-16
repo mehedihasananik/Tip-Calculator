@@ -14,6 +14,10 @@ const calculateBill = () => {
   // tip should be divided by 100 to make it perchentage
   const tipPerchantage = Number(tipInput.value) / 100;
 
+  const totalTip = bill * tipPerchantage;
+
+  const totalBill = bill + totalTip;
+
 
 }
 
