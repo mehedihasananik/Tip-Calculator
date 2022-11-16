@@ -37,7 +37,12 @@ const increasePeople = () => {
 
 
 const decreasePeople = () => {
-
+  if (numberOfPeople <= 1) {
+    return
+  }
+  numberOfPeople -= 1;
+  numberOfPeopleDiv.innerText = numberOfPeople;
+  calculateBill()
 
 
 }
