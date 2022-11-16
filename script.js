@@ -20,16 +20,19 @@ const calculateBill = () => {
 
   const totalBill = bill + totalTip;
 
+  // persons to split
   const perPersonTotal = totalBill / numberOfPeople;
-  console.log(perPersonTotal)
 
+  // per person total
+  perPersonTotalDiv.innerText = perPersonTotal;
 
 }
 
 
 const increasePeople = () => {
-
-
+  numberOfPeople += 1;
+  numberOfPeopleDiv.innerText = numberOfPeople;
+  calculateBill()
 }
 
 
