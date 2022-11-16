@@ -24,7 +24,7 @@ const calculateBill = () => {
   const perPersonTotal = totalBill / numberOfPeople;
 
   // per person total
-  perPersonTotalDiv.innerText = perPersonTotal;
+  perPersonTotalDiv.innerText = perPersonTotal.toFixed(2);
 
 }
 
@@ -41,7 +41,7 @@ const decreasePeople = () => {
     return
   }
   numberOfPeople -= 1;
-  numberOfPeopleDiv.innerText = numberOfPeople;
+  numberOfPeopleDiv.innerText = perPersonTotal.toFixed(2);
   calculateBill()
 
 
