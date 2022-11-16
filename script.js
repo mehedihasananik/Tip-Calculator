@@ -41,7 +41,7 @@ const decreasePeople = () => {
     return
   }
   numberOfPeople -= 1;
-  numberOfPeopleDiv.innerText = numberOfPeople.toFixed(2);
+  numberOfPeopleDiv.innerText = numberOfPeople;
   calculateBill()
 
 
